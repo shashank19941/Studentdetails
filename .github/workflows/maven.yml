@@ -6,6 +6,11 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
+permissions:
+  contents: read
+  id-token: write
+  security-events: write
+  
 name: Java CI with Maven
 
 on:
