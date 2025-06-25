@@ -30,4 +30,4 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Submit dependency graph
-      uses: github/dependency-submission-action@v3
+      uses: advanced-security/maven-dependency-submission-action@v3
